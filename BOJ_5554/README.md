@@ -1,4 +1,4 @@
- # :bulb: [BOJ #5554] 심부름 가는 길 - Java 문제 풀이
+ # <img src="https://d2gd6pc034wcta.cloudfront.net/tier/1-a.svg" width="30" height="30"> [BOJ #5554] 심부름 가는 길 - Java 
 #### :link: [소스 코드](https://github.com/nexusgh12/Algorithm/blob/main/BOJ_1271/BOJ_1271.java)  
 #### :link: [문제 풀러 가기](https://www.acmicpc.net/problem/1271)
 
@@ -63,4 +63,33 @@
 
 
 ### :seedling: 문제 풀이
-    * 입력받은 데이터들의 몫, 나머지를 구하면 되는 간단한 문제이다.
+    * 시간을 모두 더하고 이를 분(60초)으로 나눠 몫과 나머지를 구하여 출력한다.
+
+### :seedling: 코드
+```java
+import java.io.*;
+import java.util.StringTokenizer;
+
+class Main {
+    public static void main(String[] args) throws IOException {
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
+        int num = 4;
+        int sum = 0;
+        StringTokenizer st = null;
+        for (int i = 0; i < num; i++)
+        {
+            st = new StringTokenizer(br.readLine());
+            sum += Integer.parseInt(st.nextToken());
+        }
+        bw.write(sum/60 + "\n");
+        bw.write(sum%60+ "\n");
+
+        bw.flush();
+        br.close();
+        bw.close();
+
+    }
+
+}
+```
