@@ -4,7 +4,7 @@
 
 ***
 ### :seedling: 문제 설명
-<img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/a8280fec-5788-4315-8722-aa1377c58bba/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220115%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220115T092158Z&X-Amz-Expires=86400&X-Amz-Signature=9eef1f28a2594b31e07883c82451a92e0f552499ea1393b451644fcb2ae11e5e&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22&x-id=GetObject">
+<img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/a68fa698-2b9f-417e-ba41-39bebce9694c/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220115%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220115T110204Z&X-Amz-Expires=86400&X-Amz-Signature=0a4d6899baf437a211dcb21aba04a36191b93c4ad12c6cc2090394a8e0120124&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22&x-id=GetObject">
 
 ***
 
