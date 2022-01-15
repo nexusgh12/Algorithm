@@ -62,10 +62,10 @@
       class Main {
         public static void main(String[] args) {
           Scanner sc = new Scanner(System.in);
-          BigInteger money = sc.nextBigInteger();
-          BigInteger num = sc.nextBigInteger();
-          System.out.println(money.divide(num));
-          System.out.println(money.remainder(num));
+          BigInteger m = sc.nextBigInteger();
+          BigInteger n = sc.nextBigInteger();
+          System.out.println(m.divide(n));
+          System.out.println(m.remainder(n));
         }  
       }    
  
