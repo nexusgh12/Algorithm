@@ -1,5 +1,5 @@
  # <img src="https://d2gd6pc034wcta.cloudfront.net/tier/1-a.svg" width="25" height="25">  [BOJ #3003] 3003번 킹, 퀸, 룩, 비숍, 나이트, 폰 - Java 문제 풀이
-#### :link: [소스 코드](https://github.com/nexusgh12/Algorithm/blob/main/BOJ_3003/BOJ_3003.java)  
+#### :link: [소스 코드](https://github.com/nexusgh12/Algorithm/tree/main/BaekjoonOnlineJudge/BOJ_3003/BOJ_3003.java)  
 #### :link: [문제 풀러 가기](https://www.acmicpc.net/problem/3003)
 
 ***
