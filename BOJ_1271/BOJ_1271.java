@@ -1,4 +1,4 @@
-package Algorithm;
+package Algorithm.BOJ_1271;
 
 import java.io.*;
 import java.math.BigInteger;

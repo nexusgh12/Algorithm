@@ -1,4 +1,4 @@
-package Algorithm;
+package Algorithm.BOJ_3003;
 
 import java.io.*;
 import java.util.StringTokenizer;
