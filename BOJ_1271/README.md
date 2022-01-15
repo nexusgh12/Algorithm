@@ -28,8 +28,14 @@
     * 나머지 = m%n
     
     
- 값을 입력받고 출력하는 방법은 BufferedReader와 BufferedWriter를 이용한 방법과 Scanner를 이용한 방법 두가지가 있다.
+ BufferedReader / BufferedWriter와 Scanner를 이용한 두가지 방법이 있다.
+ 
  #### :bulb: BufferedReader와 BufferedWriter를 사용한 방법
+ 
+ 해당 방법은 Scanner를 사용한 방법보다 속도면에서 장점이 있습니다.  
+ BufferedReader와 BufferedWriter 객체를 생성하고, 한줄에 여러개의 입력을 받을 것이기 때문에  
+ StringTokenizer를 사용하여 공백을 구분자로 이용해 입력 데이터를 나눠서 변수에 초기화 했습니다. 
+ m 과 n은
  
     import java.io.*;
     import java.math.BigInteger;
@@ -51,6 +57,7 @@
         br.close();
       }
     }
+    
  #### :bulb: Scanner를 사용한 방법
       import java.util.Scanner;
       import java.math.BigInteger;
@@ -64,4 +71,6 @@
           System.out.println(money.remainder(num));
         }  
       }    
+ 
+  
 
