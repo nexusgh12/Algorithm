@@ -1,10 +1,10 @@
- # :bulb: [BOJ #1271] 1271번 엄청난 부자2 - Java 문제 풀이
+ # :bulb: [BOJ #1271] 엄청난 부자2 - Java 문제 풀이
 #### :link: [소스 코드](https://github.com/nexusgh12/Algorithm/blob/main/BOJ_1271/BOJ_1271.java)  
 #### :link: [문제 풀러 가기](https://www.acmicpc.net/problem/1271)
 
 ***
 ### :seedling: 문제 설명
-<img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/a8280fec-5788-4315-8722-aa1377c58bba/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220115%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220115T092158Z&X-Amz-Expires=86400&X-Amz-Signature=9eef1f28a2594b31e07883c82451a92e0f552499ea1393b451644fcb2ae11e5e&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22&x-id=GetObject">
+<img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/a68fa698-2b9f-417e-ba41-39bebce9694c/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220115%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220115T110204Z&X-Amz-Expires=86400&X-Amz-Signature=0a4d6899baf437a211dcb21aba04a36191b93c4ad12c6cc2090394a8e0120124&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22&x-id=GetObject">
 
 ***
 
@@ -33,41 +33,41 @@
  #### :bulb: BufferedReader와 BufferedWriter를 사용한 방법
 
  해당 방법은 Scanner를 사용한 방법보다 속도면에서 장점이 있습니다.  
- 
-    import java.io.*;
-    import java.math.BigInteger;
-    import java.util.StringTokenizer;
-    
-    class Main {
-      public static void main(String[] args) throws IOException {
-        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-        BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
-        StringTokenizer st = new StringTokenizer(br.readLine());
-        BigInteger m =new BigInteger(st.nextToken());
-        BigInteger n =new BigInteger(st.nextToken());
+ ```java
+import java.io.*;
+import java.math.BigInteger;
+import java.util.StringTokenizer;
 
-        bw.write(m.divide(n)+"\n");
-        bw.write(m.remainder(n)+"\n");
+class Main {
+ public static void main(String[] args) throws IOException {
+   BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+   BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
+   StringTokenizer st = new StringTokenizer(br.readLine());
+   BigInteger m =new BigInteger(st.nextToken());
+   BigInteger n =new BigInteger(st.nextToken());
 
-        bw.flush();
-        bw.close();
-        br.close();
-      }
-    }
-    
+   bw.write(m.divide(n)+"\n");
+   bw.write(m.remainder(n)+"\n");
+
+   bw.flush();
+   bw.close();
+   br.close();
+ }
+}
+```
  #### :bulb: Scanner를 사용한 방법
-      import java.util.Scanner;
-      import java.math.BigInteger;
-      
-      class Main {
-        public static void main(String[] args) {
-          Scanner sc = new Scanner(System.in);
-          BigInteger money = sc.nextBigInteger();
-          BigInteger num = sc.nextBigInteger();
-          System.out.println(money.divide(num));
-          System.out.println(money.remainder(num));
-        }  
-      }    
- 
-  
+```java
+import java.util.Scanner;
+import java.math.BigInteger;
+
+class Main {
+  public static void main(String[] args) {
+    Scanner sc = new Scanner(System.in);
+    BigInteger money = sc.nextBigInteger();
+    BigInteger num = sc.nextBigInteger();
+    System.out.println(money.divide(num));
+    System.out.println(money.remainder(num));
+  }  
+}    
+```
 
