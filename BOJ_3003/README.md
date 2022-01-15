@@ -30,53 +30,39 @@
 
 ***
 ### :seedling: 문제 풀이
- 입력받은 돈(m)과 생명체의 수(n)의 몫과 나머지를 구하는 문제이다.  
- 다음과 같이 구할 수 있다.  
+ 각 핀의 수를 배열에 넣고, 반복문을 통해 입력된 데이터를 빼주어 출력하는 방법으로 풀이했습니다.
  
-    * 몫 = m/n
-    * 나머지 = m%n
+    * 체스의 핀 수 : 킹 1개, 퀸 1개, 룩 2개, 비숍 2개, 나이트 2개, 폰 8개
+    * 필요한 각 핀의 수 : 입력데이터 - 각 핀의 수
     
     
- BufferedReader / BufferedWriter와 Scanner를 이용한 두가지 방법이 있다.
- 
- #### :bulb: BufferedReader와 BufferedWriter를 사용한 방법
+ #### :bulb: 코드
+```java
+import java.io.*;
+import java.util.StringTokenizer;
 
- 해당 방법은 Scanner를 사용한 방법보다 속도면에서 장점이 있습니다.  
- 
-    import java.io.*;
-    import java.math.BigInteger;
-    import java.util.StringTokenizer;
-    
-    class Main {
-      public static void main(String[] args) throws IOException {
+public class Main {
+    public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
         StringTokenizer st = new StringTokenizer(br.readLine());
-        BigInteger m =new BigInteger(st.nextToken());
-        BigInteger n =new BigInteger(st.nextToken());
 
-        bw.write(m.divide(n)+"\n");
-        bw.write(m.remainder(n)+"\n");
+        int[] ch = {1, 1, 2, 2, 2, 8};
+        int len = st.countTokens();
+        String s = "";
 
+        for(int i = 0; i < len; i++){
+            s += ch[i] -  Integer.parseInt(st.nextToken()) + " ";
+        }
+        bw.write(s);
         bw.flush();
         bw.close();
         br.close();
-      }
     }
+}
+```
+
     
- #### :bulb: Scanner를 사용한 방법
-      import java.util.Scanner;
-      import java.math.BigInteger;
-      
-      class Main {
-        public static void main(String[] args) {
-          Scanner sc = new Scanner(System.in);
-          BigInteger money = sc.nextBigInteger();
-          BigInteger num = sc.nextBigInteger();
-          System.out.println(money.divide(num));
-          System.out.println(money.remainder(num));
-        }  
-      }    
- 
+
   
 
