@@ -1,4 +1,4 @@
- # 💡 [BOJ #10869 <img src="https://d2gd6pc034wcta.cloudfront.net/tier/1-a.svg" width="25" height="25">]  사칙연산 - Java 
+ # <img src="https://d2gd6pc034wcta.cloudfront.net/tier/1-a.svg" width="25" height="25"> [BOJ #10869]  사칙연산 - Java 
 #### :link: [소스 코드](https://github.com/nexusgh12/Algorithm/blob/main/BOJ_10869/BOJ_10869.java)  
 #### :link: [문제 풀러 가기](https://www.acmicpc.net/problem/10869)
 
