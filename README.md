@@ -1,4 +1,4 @@
-# Baekjoon Online Judge 문제 풀이
+# :bulb: Baekjoon Online Judge 문제 풀이
 문제에 대한 풀이 과정 및 소스코드를 저장하는 공간입니다.  
 찾는 문제의 번호를 ctrl + f를 이용해 검색하신 뒤 해당 폴더로 들어가시면 됩니다.
 
