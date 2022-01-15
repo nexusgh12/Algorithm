@@ -33,41 +33,41 @@
  #### :bulb: BufferedReader와 BufferedWriter를 사용한 방법
 
  해당 방법은 Scanner를 사용한 방법보다 속도면에서 장점이 있습니다.  
- 
-    import java.io.*;
-    import java.math.BigInteger;
-    import java.util.StringTokenizer;
-    
-    class Main {
-      public static void main(String[] args) throws IOException {
-        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-        BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
-        StringTokenizer st = new StringTokenizer(br.readLine());
-        BigInteger m =new BigInteger(st.nextToken());
-        BigInteger n =new BigInteger(st.nextToken());
+ ```java
+import java.io.*;
+import java.math.BigInteger;
+import java.util.StringTokenizer;
 
-        bw.write(m.divide(n)+"\n");
-        bw.write(m.remainder(n)+"\n");
+class Main {
+ public static void main(String[] args) throws IOException {
+   BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+   BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
+   StringTokenizer st = new StringTokenizer(br.readLine());
+   BigInteger m =new BigInteger(st.nextToken());
+   BigInteger n =new BigInteger(st.nextToken());
 
-        bw.flush();
-        bw.close();
-        br.close();
-      }
-    }
-    
+   bw.write(m.divide(n)+"\n");
+   bw.write(m.remainder(n)+"\n");
+
+   bw.flush();
+   bw.close();
+   br.close();
+ }
+}
+```
  #### :bulb: Scanner를 사용한 방법
-      import java.util.Scanner;
-      import java.math.BigInteger;
-      
-      class Main {
-        public static void main(String[] args) {
-          Scanner sc = new Scanner(System.in);
-          BigInteger m = sc.nextBigInteger();
-          BigInteger n = sc.nextBigInteger();
-          System.out.println(m.divide(n));
-          System.out.println(m.remainder(n));
-        }  
-      }    
- 
-  
+```java
+import java.util.Scanner;
+import java.math.BigInteger;
+
+class Main {
+  public static void main(String[] args) {
+    Scanner sc = new Scanner(System.in);
+    BigInteger money = sc.nextBigInteger();
+    BigInteger num = sc.nextBigInteger();
+    System.out.println(money.divide(num));
+    System.out.println(money.remainder(num));
+  }  
+}    
+```
 
