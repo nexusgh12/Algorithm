@@ -1,4 +1,4 @@
- # :bulb: [BOJ #1271] 엄청난 부자2 - Java 문제 풀이
+ # :bulb: [BOJ #1271 <img src="https://d2gd6pc034wcta.cloudfront.net/tier/1-a.svg" width="25" height="25"> ] 엄청난 부자2 - Java 문제 풀이
 #### :link: [소스 코드](https://github.com/nexusgh12/Algorithm/blob/main/BOJ_1271/BOJ_1271.java)  
 #### :link: [문제 풀러 가기](https://www.acmicpc.net/problem/1271)
 
