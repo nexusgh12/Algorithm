@@ -1,6 +1,35 @@
 # :bulb: Baekjoon Online Judge 문제 풀이
 문제에 대한 풀이 과정 및 소스코드를 저장하는 공간입니다.  
 찾는 문제의 번호를 ctrl + f를 이용해 검색하신 뒤 해당 폴더로 들어가시면 됩니다.
+## 📁 22년 1월 24일
+
+<details open><summary>숨기기</summary>
+
+### ✏️문제
+#### <img src="https://d2gd6pc034wcta.cloudfront.net/tier/1-a.svg" width="20" height="20"> Bronze5
+
+
+
+#### Bronze1
+- [백준 1157](./BOJ_1157)
+- [백준 1546](./BOJ_1546)
+
+#### Bronze2
+- [백준 2920](./BOJ_2920)
+- [백준 2577](./BOJ_2577)
+
+#### Bronze3
+- [백준 2739](./BOJ_2739)
+- [백준 10871](./BOJ_10871)
+
+
+
+#### <img src="https://d2gd6pc034wcta.cloudfront.net/tier/6-a.svg" width="20" height="20"> Silver
+
+
+#### <img src="https://d2gd6pc034wcta.cloudfront.net/tier/11-a.svg" width="20" height="20"> Gold
+
+ </details>   
 
 ## 📁 22년 1월 17일
 
