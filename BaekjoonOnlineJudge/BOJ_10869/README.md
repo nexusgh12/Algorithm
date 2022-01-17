@@ -72,6 +72,7 @@ class BOJ_10869 {
 #### :bulb: Scanner 사용 코드
 - Scanner는 공백도 하나의 구분자로 보기때문에 편리함
 ```java
+    import java.util.Scanner;
     //Scanner 속도 112
     class BOJ_10869 {
         public static void main(String[] args) {
