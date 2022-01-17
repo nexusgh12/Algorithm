@@ -8,16 +8,16 @@
 ### ✏️문제
 
 #### <img src="https://d2gd6pc034wcta.cloudfront.net/tier/1-a.svg" width="20" height="20"> Bronze1
-- [백준 1157](./BOJ_1157)
-- [백준 1546](./BOJ_1546)
+- [백준 1157](./BaekjoonOnlineJudge/BOJ_1157)
+- [백준 1546](./BaekjoonOnlineJudge/BOJ_1546)
 
 #### <img src="https://d2gd6pc034wcta.cloudfront.net/tier/1-a.svg" width="20" height="20"> Bronze2
-- [백준 2920](./BOJ_2920)
-- [백준 2577](./BOJ_2577)
+- [백준 2920](./BaekjoonOnlineJudge/BOJ_2920)
+- [백준 2577](./BaekjoonOnlineJudge/BOJ_2577)
 
 #### <img src="https://d2gd6pc034wcta.cloudfront.net/tier/1-a.svg" width="20" height="20"> Bronze3
-- [백준 2739](./BOJ_2739)
-- [백준 10871](./BOJ_10871)
+- [백준 2739](./BaekjoonOnlineJudge/BOJ_2739)
+- [백준 10871](./BaekjoonOnlineJudge/BOJ_10871)
 
 
 
@@ -37,12 +37,12 @@
 
 
  
-- [백준 1271](./BOJ_1271)
-- [백준 3003](./BOJ_3003)
-- [백준 5554](./BOJ_5554)
-- [백준 10869](./BOJ_10869)
-- [백준 15964](./BOJ_15964)
-- [백준 17496](./BOJ_17496)
+- [백준 1271](./BaekjoonOnlineJudge/BOJ_1271)
+- [백준 3003](./BaekjoonOnlineJudge/BOJ_3003)
+- [백준 5554](./BaekjoonOnlineJudge/BOJ_5554)
+- [백준 10869](./BaekjoonOnlineJudge/BOJ_10869)
+- [백준 15964](./BaekjoonOnlineJudge/BOJ_15964)
+- [백준 17496](./BaekjoonOnlineJudge/BOJ_17496)
 
 
 
