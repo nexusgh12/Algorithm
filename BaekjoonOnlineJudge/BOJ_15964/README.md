@@ -1,5 +1,5 @@
  # <img src="https://d2gd6pc034wcta.cloudfront.net/tier/1-a.svg" width="25" height="25"> [BOJ #15964]  이상한 기호 - Java 
-#### :link: [소스 코드](https://github.com/nexusgh12/Algorithm/tree/main/BaekjoonOnlineJudge/BOJ_15964.java)  
+#### :link: [소스 코드](https://github.com/nexusgh12/Algorithm/tree/main/BaekjoonOnlineJudge/BOJ_15964/BOJ_15964.java)  
 #### :link: [문제 풀러 가기](https://www.acmicpc.net/problem/15964)
 
 ***
