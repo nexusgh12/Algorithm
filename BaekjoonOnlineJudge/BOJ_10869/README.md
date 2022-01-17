@@ -43,6 +43,7 @@
     * 사칙연산 및 나머지 연산(+, -, *, /, %)을 수행하여 출력한다.
 
 ### :seedling: 코드
+#### :bulb: BufferedReader 사용 코드
 ```java
 import java.io.*;
 import java.util.StringTokenizer;
@@ -67,3 +68,22 @@ class BOJ_10869 {
     }
 }
 ```
+
+#### :bulb: Scanner 사용 코드
+- Scanner는 공백도 하나의 구분자로 보기때문에 편리함
+```java
+    //Scanner 속도 112
+    class BOJ_10869 {
+        public static void main(String[] args) {
+    
+            Scanner sc = new Scanner(System.in);
+            int a = sc.nextInt(), b = sc.nextInt();
+            System.out.println(a + b);
+            System.out.println(a - b);
+            System.out.println(a * b);
+            System.out.println(a / b);
+            System.out.println(a % b);
+        }
+
+```
+
