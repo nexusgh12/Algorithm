@@ -40,7 +40,15 @@
 
 #### <img src="https://d2gd6pc034wcta.cloudfront.net/tier/6-a.svg" width="20" height="20"> Silver
 
+<details open><summary>숨기기</summary>  
+
+</details>
+
 #### <img src="https://d2gd6pc034wcta.cloudfront.net/tier/11-a.svg" width="20" height="20"> Gold
- 
+
+<details open><summary>숨기기</summary>  
+
+</details>
+
 
 
