@@ -6,19 +6,16 @@
 <details open><summary>숨기기</summary>
 
 ### ✏️문제
-#### <img src="https://d2gd6pc034wcta.cloudfront.net/tier/1-a.svg" width="20" height="20"> Bronze5
 
-
-
-#### Bronze1
+#### <img src="https://d2gd6pc034wcta.cloudfront.net/tier/1-a.svg" width="20" height="20"> Bronze1
 - [백준 1157](./BOJ_1157)
 - [백준 1546](./BOJ_1546)
 
-#### Bronze2
+#### <img src="https://d2gd6pc034wcta.cloudfront.net/tier/1-a.svg" width="20" height="20"> Bronze2
 - [백준 2920](./BOJ_2920)
 - [백준 2577](./BOJ_2577)
 
-#### Bronze3
+#### <img src="https://d2gd6pc034wcta.cloudfront.net/tier/1-a.svg" width="20" height="20"> Bronze3
 - [백준 2739](./BOJ_2739)
 - [백준 10871](./BOJ_10871)
 
