@@ -1,4 +1,4 @@
-package Algorithm.BOJ_1271;
+package Algorithm.BaekjoonOnlineJudge.BOJ_1271;
 
 import java.io.*;
 import java.math.BigInteger;

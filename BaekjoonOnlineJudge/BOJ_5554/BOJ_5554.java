@@ -1,4 +1,4 @@
-package Algorithm.BOJ_5554;
+package Algorithm.BaekjoonOnlineJudge.BOJ_5554;
 
 import java.io.*;
 import java.util.StringTokenizer;

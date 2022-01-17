@@ -1,4 +1,4 @@
-package Algorithm.BOJ_15964;
+package Algorithm.BaekjoonOnlineJudge.BOJ_15964;
 
 import java.io.*;
 import java.util.Scanner;

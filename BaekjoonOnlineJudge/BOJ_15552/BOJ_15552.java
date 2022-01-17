@@ -1,4 +1,4 @@
-package Algorithm.BOJ_15552;
+package Algorithm.BaekjoonOnlineJudge.BOJ_15552;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
