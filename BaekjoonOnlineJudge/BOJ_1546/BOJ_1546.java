@@ -25,5 +25,9 @@ public class BOJ_1546 {
         bw.write(result+"\n");
         bw.flush();
         br.close();
+        
+
+
+
     }
 }
