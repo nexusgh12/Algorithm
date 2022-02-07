@@ -7,7 +7,10 @@ import java.util.Queue;
 import java.util.StringTokenizer;
 
 public class BOJ_1260 {
+
+    //정점
     public static int N;
+    //인접리스트
     public static LinkedList<Integer>[] nodeList;
 
     public static void main(String[] args) throws IOException {
@@ -16,10 +19,12 @@ public class BOJ_1260 {
         StringTokenizer st = new StringTokenizer(br.readLine());
 
         N = Integer.parseInt(st.nextToken());
+        //간선의 개수
         int M = Integer.parseInt(st.nextToken());
-        int V = Integer.parseInt(st.nextToken());
+        //정점의 번호
+       int V = Integer.parseInt(st.nextToken());
 
-        //노드 리스트  객체생성
+        //인접 리스트 객체생성
         nodeList = new LinkedList[N+1];
 
         //인접 리스트 생성
@@ -28,19 +33,18 @@ public class BOJ_1260 {
         }
 
         for (int i = 0; i < M; i++) {
-            //간선이 연결하는 두 정점의 번호 받아오기
             st = new StringTokenizer(br.readLine());
 
-        //두 정점 초기화
-        int node1 = Integer.parseInt(st.nextToken());
-        int node2 = Integer.parseInt(st.nextToken());
+            //간선이 연결하는 두 정점의 번호 받아오기
+            int node1 = Integer.parseInt(st.nextToken());
+            int node2 = Integer.parseInt(st.nextToken());
 
-        nodeList[node1].add(node2);
-        nodeList[node2].add(node1);
+            nodeList[node1].add(node2);
+            nodeList[node2].add(node1);
 
-        Collections.sort(nodeList[node1]);
-        Collections.sort(nodeList[node2]);
-    }
+            Collections.sort(nodeList[node1]);
+            Collections.sort(nodeList[node2]);
+        }
 
 
 
@@ -99,7 +103,6 @@ public class BOJ_1260 {
 
             //노드 방문 설정
             visited[node] = true;
-
             //방문한 노드 출력 추가
             sb.append(node + " ");
 

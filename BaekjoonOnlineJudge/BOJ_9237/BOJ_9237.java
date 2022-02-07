@@ -29,7 +29,7 @@ public class BOJ_9237 {
         //묘목이 자라는데 걸리는 시간 내림차순 정렬
         Collections.sort(t, Collections.reverseOrder());
 
-        // 묘목이 자라는 시간 + 묘목 심는데 덜리는 시간
+        // 묘목이 자라는 시간 + 묘목 심는데 걸리는 시간
         for (int i = 0; i < N; i++) {
             t.set(i, t.get(i) + i);
         }

@@ -16,6 +16,7 @@ class BOJ_3003 {
         for(int i = 0; i < len; i++){
             s += ch[i] -  Integer.parseInt(st.nextToken()) + " ";
         }
+
         bw.write(s);
         bw.flush();
         bw.close();
